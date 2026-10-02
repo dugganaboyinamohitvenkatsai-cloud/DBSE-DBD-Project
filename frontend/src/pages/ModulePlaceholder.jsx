@@ -1,0 +1,3 @@
+import { useParams } from 'react-router-dom';
+const labels = { students: 'Students', parents: 'Parents', drivers: 'Drivers', buses: 'Buses', routes: 'Routes & Stops', trips: 'Trips', tracking: 'Bus Tracking', notifications: 'Notifications', location: 'Location Sharing' };
+export function ModulePlaceholder() { const { module } = useParams(); const label = labels[module] || 'Module'; return <section className="panel empty-module"><p className="eyebrow">{label}</p><h2>{label} management</h2><p>This area is ready for the connected {label.toLowerCase()} workflow in the next implementation phase.</p></section>; }

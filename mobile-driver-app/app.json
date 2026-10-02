@@ -1,0 +1,23 @@
+{
+  "expo": {
+    "name": "SchoolBus Driver",
+    "slug": "schoolbus-driver-mobile",
+    "version": "1.0.0",
+    "orientation": "portrait",
+    "userInterfaceStyle": "light",
+    "ios": {
+      "supportsTablet": false,
+      "bundleIdentifier": "com.schoolbus.driver"
+    },
+    "android": {
+      "package": "com.schoolbus.driver",
+      "adaptiveIcon": {
+        "backgroundColor": "#0F172A"
+      }
+    },
+    "plugins": [
+      "expo-secure-store",
+      "expo-status-bar"
+    ]
+  }
+}

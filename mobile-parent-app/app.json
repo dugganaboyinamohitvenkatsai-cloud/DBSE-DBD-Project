@@ -1,0 +1,34 @@
+{
+  "expo": {
+    "name": "SchoolBus Parent",
+    "slug": "schoolbus-parent-mobile",
+    "version": "1.0.0",
+    "orientation": "portrait",
+    "userInterfaceStyle": "light",
+    "ios": {
+      "supportsTablet": false,
+      "bundleIdentifier": "com.schoolbus.parent"
+    },
+    "android": {
+      "package": "com.schoolbus.parent",
+      "adaptiveIcon": {
+        "backgroundColor": "#172554"
+      },
+      "permissions": [
+        "RECEIVE_BOOT_COMPLETED",
+        "VIBRATE",
+        "POST_NOTIFICATIONS"
+      ]
+    },
+    "plugins": [
+      "expo-secure-store",
+      "expo-status-bar",
+      "expo-notifications"
+    ],
+    "extra": {
+      "eas": {
+        "projectId": "83e65d6b-903f-4d8d-980e-b764874f9b62"
+      }
+    }
+  }
+}

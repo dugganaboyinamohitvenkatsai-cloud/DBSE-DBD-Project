@@ -1,0 +1,57 @@
+# ==============================================================================
+# School Bus Tracking & Student Safety Portal - Root .gitignore
+# ==============================================================================
+
+# Dependencies
+node_modules/
+*/node_modules/
+*/*/node_modules/
+
+# Production Builds & Bundler Caches
+dist/
+*/dist/
+build/
+*/build/
+.expo/
+*/.expo/
+web-build/
+.cache/
+
+# Environment Variables & Secrets (CRITICAL: Never commit real credentials)
+.env
+.env.*
+*.env
+!.env.example
+!*/.env.example
+
+# Log Files & Error Dumps
+*.log
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+pnpm-debug.log*
+
+# Operating System & IDE Artifacts
+.DS_Store
+Thumbs.db
+desktop.ini
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# Temporary Browser Profiles & Test Dumps
+.browser-capture-profile/
+.browser-data/
+*/.browser-capture-profile/
+*/.browser-data/
+
+# Python Build & Bytecode Caches
+__pycache__/
+*/__pycache__/
+*/*/__pycache__/
+*.pyc
+*.pyo
+
+# Local Working Documentation Generator (Clean artifacts published in docs/)
+Documentation/
